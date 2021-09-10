@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    height:100vh;
+    width:100%;
+}
+.container{
+
+width:100vh;
+height: 100vh;
+
+}
+
+.img-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('./images/bg-pattern-top.svg');
+    size:cover;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 50vh;
+    width: 50vw;
+
+}
+.img-bot{
+   
+  
+   z-index: -1;
+   background-image: url('./images/bg-pattern-bottom.svg');
+   position: absolute;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 50vh;
+    width: 50vw;
+    right: 0;
+    bottom: 0;
+}
+.img-bot img{
+    height: 800px;
+}
+
+.card{
+width: 350px;
+height: 370px;
+background: #FFF;
+border-radius: 15px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+overflow: hidden;
+display: inline;
+}
+.clr img{
+  width: 350px;
+}
+.profil-pic{
+    background: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px,100px);
+    margin-top: -40%;
+    margin-left: 10%;
+    }
+.profil-pic img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
+.info{
+    font-size: 18px;
+    align-items: center;
+    margin: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+.info h1{
+    font-size: 18px;
+   
+}
+.info span{
+    
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    
+}
+.city{
+    padding: 20px;
+}
+.city h3{
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.fans{
+    display:flex;
+    /* border-top: 1px solid hsl(0, 0%, 59%); */
+    font-size:9px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.fans h3{
+    font-size: 9px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
